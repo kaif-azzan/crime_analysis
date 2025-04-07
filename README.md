@@ -46,8 +46,8 @@ Pandas, NumPy, Matplotlib, Seaborn (for data analysis and plotting)
 
 **Instructions to run the project**
 
-*)Exploratary analysis and model training
-    If you want to do an analysis on the dataset and train the model, simply download the .ipynb file and run file by file, each graph, map and model will be downloaded in your colab environment which you can later     choose to either download or ignore.
+🧩 Exploratory Analysis & Model Training
+To perform data analysis and train the model, download the .ipynb notebook file and execute it cell by cell in your Colab environment. All graphs, maps, and the trained model will be generated and saved within the environment. You can choose to download these outputs or leave them as is.
 
-*)Running streamlit application
-    If you wish to run the UI, simply copy the content folder, app.py and requirements.txt file into one folder, then install the dependencies from the .txt file and run the code.
+💻 Running the Streamlit Application
+To run the user interface, copy the content folder, app.py, and requirements.txt into a single directory. Install the required dependencies listed in the requirements.txt file, and then run the application using Streamlit.
