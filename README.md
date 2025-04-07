@@ -1,4 +1,4 @@
-#Instructions to run the project
+**Instructions to run the project**
 
 *)Exploratary analysis and model training
     If you want to do an analysis on the dataset and train the model, simply download the .ipynb file and run file by file, each graph, map and model will be              downloaded in your colab environment which you can later choose to either download or ignore.
