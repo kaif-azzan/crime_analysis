@@ -52,7 +52,8 @@ To perform data analysis and train the model, download the .ipynb notebook file 
 💻 Running the Streamlit Application
 To run the user interface, copy the content folder, app.py, and requirements.txt into a single directory. Install the required dependencies listed in the requirements.txt file, and then run the application using Streamlit.
 
-📂 Submitting PDF or CSV Datasets
+**📂 Submitting PDF or CSV Datasets**
+
 If you wish to submit your own dataset, please ensure the following:
   For PDF files, use a format similar to the sample provided in the submit folder.
   For CSV files, make sure the file size is less than 10 MB to avoid exceeding resource limits.
