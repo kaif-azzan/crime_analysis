@@ -43,6 +43,10 @@ Map libraries (like Folium or Leaflet.js) for map visualizations
 
 Pandas, NumPy, Matplotlib, Seaborn (for data analysis and plotting)
 
+**Training the model and generating Maps**
+
+If you wish to train the model and genetate the diagrams just run the .ipynb file and the diagrams and model will be saved on your local which you can later download onto your machine.
+
 
 **Instructions to run the project**
 
