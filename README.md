@@ -1,3 +1,53 @@
+**Instruction to run the files**
+
+This program was developed and has only been tested on Windows. I cannot vouch for its execution on other Operating Systems.
+After cloning this repository, follow the below steps:
+
+Running streamlit application on localhost
+
+1. Ensure that 'python' and 'pip' are installed.
+
+2. Open a terminal/command prompt/powershell and change the directory to the cloned repository.
+
+3. Run "pip install -r requirements.txt".
+	Note: This process may take up to 15 mins to complete as several packages/dependencies are installed during this.
+
+4. Run "streamlit run app.py".
+
+Running 'data_analysis' notebook on Google Colab
+
+1. After logging and opening Colab, you will be asked to open a new notebook.
+   Go to 'Upload' and upload the 'data_analysis' file in the cloned repository.
+
+2. Once open, click on the first cell and hit 'Ctrl + F10' to run all the cell blocks
+	Note: You will see some warning/error regarding 'pip' and prompted to restart the session. Restart it and if it keeps coming up,
+	do it around 3 - 4 times and ignore warnings hereafter. Do not forget to re-run from the first cell after restarting the session.
+
+3. If you wish to run the streamlit application within in Colab itself (i.e. host it from Colab itself), 
+   navigate to the following block of code: 
+
+	"!wget -q -O - https://loca.lt/mytunnelpassword"
+
+   In the output of this code block, you will find a code in the following format: (XX.XX.XX.XX)
+   Copy this code and follow the next step.
+
+	Note: You will be prompted to enter a confirmation statement. Click on the empty box waiting for 
+        a text prompt, and type 'y'.
+
+4. Once you have run the entire notebook, the streamlit application should already be hosted locally. 
+   You can navigate to the following code block:
+
+	"!streamlit run demo.py & npx localtunnel --port 8501"
+
+   In the output, you will find a "Local URL" (eg:- http://localhost:8501), open this URL.
+
+5. You will be prompted to paste a code on this page as it is a tunnel page. The code that was copied from 
+   Step 3 shall be pasted here. This will redirect you to the streamlit application where you can run the 
+   application for as long as you want. 
+
+
+**Project Description**
+
 **Crime Analysis**
 
 This project focuses on analyzing the San Francisco crime dataset to uncover hidden patterns in criminal activities and build predictive capabilities to assist in understanding crime trends better.
