@@ -20,8 +20,7 @@ Running 'data_analysis' notebook on Google Colab
    Go to 'Upload' and upload the 'data_analysis' file in the cloned repository.
 
 2. Once open, click on the first cell and hit 'Ctrl + F10' to run all the cell blocks
-	Note: You will see some warning/error regarding 'pip' and prompted to restart the session. Restart it and if it keeps coming up,
-	do it around 3 - 4 times and ignore warnings hereafter. Do not forget to re-run from the first cell after restarting the session.
+	Note: You will see some warning/error regarding 'pip' and prompted to restart the session. Restart it once after the complete executino of first block and ignore warnings hereafter. Do not forget to re-run from the first cell after restarting the session.
 
 3. If you wish to run the streamlit application within in Colab itself (i.e. host it from Colab itself), 
    navigate to the following block of code: 
