@@ -118,10 +118,9 @@ def load_svg_file(filename):
 #GPT FUNCTION
 #================
 
-genai.configure(api_key='get_your_own_key')
+gog='AIzaSyB1QKiTXJOkjcbfdVmIxq6A39S0ZSXG7_c'
+genai.configure(api_key=gog)
 model = genai.GenerativeModel('gemini-2.0-flash')
-gog='get_your_own_key'
-
 
 def get_csv_text(doc):
     text = ""
